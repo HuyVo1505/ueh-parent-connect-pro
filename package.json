@@ -1,0 +1,15 @@
+{
+  "name": "ueh-parent-connect-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UEH Parent Connect – Fullstack Production Monorepo",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:start": "npm --prefix backend start",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:preview": "npm --prefix frontend run preview"
+  }
+}
